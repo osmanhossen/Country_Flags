@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rest Countries</title>
+  <style>
+    body {
+      background-color: rgb(248, 158, 126);
+      width: 75%;
+      margin: auto;
+    }
+.title{
+  text-align: center;
+}
+    .country {
+      margin: 10px;
+      padding: 10px;
+      background-color: chocolate;
+      color: rgb(182, 239, 217);
+      border-radius: 5px;
+      font-weight: 900;
+    }
+#country_details{
+  width: 50%;
+  margin: auto;
+}
+    #all_countries {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+    }
+
+    .details {
+      font-size: 1em;
+      font-weight: bold;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 2px solid;
+      color: rgb(80, 53, 26);
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="title">All Countries Details</h1>
+  <section id="country_details">
+
+  </section>
+  <section id="all_countries">
+
+  </section>
+
+
+  <script src="js/countries.js"></script>
+</body>
+
+</html>
